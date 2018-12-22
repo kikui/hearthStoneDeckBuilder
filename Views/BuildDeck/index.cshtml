@@ -1,0 +1,67 @@
+@model hearthStoneDeckBuilder.ViewModels.BuildDeckViewModel
+
+<style>
+    .link:hover{
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+</style>
+
+<br><br>
+@foreach (var item in Model.Stats)
+{
+    <span class="col-sm-4 text-center link" onclick="switchTableCard('@item.CardStat.Name')">Carte @item.CardStat.Name - @item.CardStat.Count cartes</span>
+}
+<br><br>
+<div class="row mt-2">
+    <select id="CardClass" class="col" onchange="ShowCardClass(value)">
+        <option value="All">All</option>
+        <option value="Neutral">Neutral</option>
+        <option value="Druid">Druid</option>
+        <option value="Hunter">Hunter</option>
+        <option value="Mage">Mage</option>
+        <option value="Paladin">Paladin</option>
+        <option value="Priest">Priest</option>
+        <option value="Rogue">Rogue</option>
+        <option value="Shaman">Shaman</option>
+        <option value="Warlock">Warlock</option>
+        <option value="Warrior">Warrior</option>
+        <option value="Dream">Dream</option>
+        <option value="Whizbang">Whizbang</option>
+        <option value="Deathnight">Deathknight</option>
+    </select>
+</div>
+<br><br>
+<div id="stats" class="row no-gutters">
+    @foreach (var item in Model.Stats)
+    {
+        {Html.RenderPartial("dataFrames/"+item.CardStat.Name, item);}
+    }    
+</div>
+
+
+<script type="text/javascript">
+    function switchTableCard(name){
+        $("#stats").find("table").hide()
+        $("#stats").find("h1").hide()
+        $("#" + name).show()
+        $("#" + name + "_title").show()
+    }
+
+    function popoverTest(){
+        $('[data-toggle="popover"]').popover();
+    }
+
+    function ShowCardClass(value) {
+        if(value == "All"){
+            $("tr").show()
+        }
+        else{
+            $("tr").each(function(i, e) {
+                var isVisible = ($(e).data("class-type") == value || $(e).data("enchantment") == "enchantment")
+                $(e).toggle(isVisible)
+            });
+        }
+    }
+</script>

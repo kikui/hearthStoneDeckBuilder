@@ -1,0 +1,52 @@
+@model hearthStoneDeckBuilder.ViewModels.BuildDeckStatViewModel
+<h1 id="hero_title" class="text-center" style="display:none">Héros</h1>
+<table id="@Model.CardStat.Name" class="table" style="display:none">
+    <thead>
+        <tr>
+            <th>
+                Titre
+            </th>
+            <th>
+                Classe
+            </th>
+            <th>
+                Cout
+            </th>
+            <th>
+                Rareté
+            </th>
+            <th>
+                Armure
+            </th>
+            <th>
+                Image
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (HeroCard card in Model.Cards) {
+            <tr data-class-type="@card.CardClass">
+                <td>
+                    @card.Name
+                </td>
+                <td>
+                    @card.CardClass
+                </td>
+                <td>
+                    @card.Cost
+                </td>
+                <td>
+                    @card.Rarity
+                </td>
+                <td>
+                    @card.Armor
+                </td>
+                <td>
+                    <button class="" onclick="popoverTest()" data-container="body" data-html="true" data-toggle="popover" data-placement="bottom" data-content='<img height="400" src="@card.LinkPicture">'>
+                        ouvrir l'image
+                    </button>
+                </td>
+            </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,26 @@
+@model hearthStoneDeckBuilder.ViewModels.BuildDeckStatViewModel
+<h1 id="enchantment_title" class="text-center" style="display:none">Enchantements</h1>
+<table id="@Model.CardStat.Name" class="table" style="display:none">
+    <thead>
+        <tr>
+            <th>
+                Titre
+            </th>
+            <th>
+                Description de l'enchantement
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (EnchantmentCard card in Model.Cards) {
+            <tr data-enchantment="enchantment">
+                <td>
+                    @card.Name
+                </td>
+                <td>
+                    @card.Text
+                </td>
+            </tr>
+    }
+    </tbody>
+</table>
