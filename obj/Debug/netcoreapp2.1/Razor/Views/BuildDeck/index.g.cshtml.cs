@@ -116,7 +116,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("<br><br>\r\n<div class=\"row mt-2\">\r\n    <select id=\"CardClass\" class=\"col\" onchange=\"ShowCardClass(value)\">\r\n        ");
             EndContext();
             BeginContext(518, 32, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c9984d225eb64564abbcb0be2f6da0ba", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "19a4343b967b431b84dba2c1ffc26252", async() => {
                 BeginContext(538, 3, true);
                 WriteLiteral("All");
                 EndContext();
@@ -138,7 +138,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(560, 40, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d24bbad260cb4421b241da0a9c597008", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b0b4463eed01485d806d29c435bd7ece", async() => {
                 BeginContext(584, 7, true);
                 WriteLiteral("Neutral");
                 EndContext();
@@ -160,7 +160,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(610, 36, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41d9fccc50354e9e89b45b63444011c1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "18f52460f17f4f9aa11d7823c2d29923", async() => {
                 BeginContext(632, 5, true);
                 WriteLiteral("Druid");
                 EndContext();
@@ -182,7 +182,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(656, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "05643f90d04a44138952d0dfbc5f0523", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ecc48c378e0a429ba3ee21f0f8ae0722", async() => {
                 BeginContext(679, 6, true);
                 WriteLiteral("Hunter");
                 EndContext();
@@ -204,7 +204,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(704, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c13dba8a1a454b0bad3a092facd3388b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9132777e5c4d48b7a8e5ebdc59da5104", async() => {
                 BeginContext(725, 4, true);
                 WriteLiteral("Mage");
                 EndContext();
@@ -226,7 +226,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(748, 40, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c888e19d5bc344f19a50f777a17fb4eb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fb21737fbf994bb691c74f5f888e9bd9", async() => {
                 BeginContext(772, 7, true);
                 WriteLiteral("Paladin");
                 EndContext();
@@ -248,7 +248,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(798, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3278f1c2cd514b4cae6c9cc7b02e383a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec4113a65b3f4babbf6ea389534c4066", async() => {
                 BeginContext(821, 6, true);
                 WriteLiteral("Priest");
                 EndContext();
@@ -270,7 +270,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(846, 36, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90758db1d4e14dabb0e193e85583315b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cae68782f7e648ee80f7348d597ad78e", async() => {
                 BeginContext(868, 5, true);
                 WriteLiteral("Rogue");
                 EndContext();
@@ -292,7 +292,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(892, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96a074acbe7e45bfb1350575cbfd4c3f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9af95b2f01c449f49fca42ac44a1b872", async() => {
                 BeginContext(915, 6, true);
                 WriteLiteral("Shaman");
                 EndContext();
@@ -314,7 +314,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(940, 40, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "23a11602b3964fa2bfdaab42bd7ed283", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dafba073a6394757b6d1516e919aa26e", async() => {
                 BeginContext(964, 7, true);
                 WriteLiteral("Warlock");
                 EndContext();
@@ -336,7 +336,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(990, 40, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cb58e1cff84b4968986743cbbb94c2d5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7369e4dbe060445ab4cdf97f55f906d4", async() => {
                 BeginContext(1014, 7, true);
                 WriteLiteral("Warrior");
                 EndContext();
@@ -358,7 +358,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(1040, 36, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aa5440a88ded48c98eb60994fea30fce", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "45082f8c948748d086b587cc5a50a566", async() => {
                 BeginContext(1062, 5, true);
                 WriteLiteral("Dream");
                 EndContext();
@@ -380,7 +380,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(1086, 42, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cfa7e1aad61c4cd5acda9ae32bce2636", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dbffb6d189d74ae9a7d4b5232173cde7", async() => {
                 BeginContext(1111, 8, true);
                 WriteLiteral("Whizbang");
                 EndContext();
@@ -402,7 +402,7 @@ WriteAttributeValue("", 313, item.CardStat.Name, 313, 19, false);
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(1138, 47, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ab11e91479ef4ae7a175de89eda2c0fc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eeff4a5caa2b4793a3e816ff16041e42", async() => {
                 BeginContext(1165, 11, true);
                 WriteLiteral("Deathknight");
                 EndContext();

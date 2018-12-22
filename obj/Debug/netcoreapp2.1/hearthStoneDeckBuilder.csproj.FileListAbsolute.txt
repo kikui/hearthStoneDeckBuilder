@@ -26,10 +26,6 @@ C:\Users\thery\OneDrive - Ynov\Master 1\NET\projet hearthstone\hearthStoneDeckBu
 C:\Users\thery\OneDrive - Ynov\Master 1\NET\projet hearthstone\hearthStoneDeckBuilder\obj\Debug\netcoreapp2.1\hearthStoneDeckBuilder.dll
 C:\Users\thery\OneDrive - Ynov\Master 1\NET\projet hearthstone\hearthStoneDeckBuilder\obj\Debug\netcoreapp2.1\hearthStoneDeckBuilder.pdb
 C:\Users\thery\OneDrive - Ynov\Master 1\NET\projet hearthstone\hearthStoneDeckBuilder\obj\Debug\netcoreapp2.1\hearthStoneDeckBuilder.csproj.CopyComplete
-C:\Users\thery\OneDrive - Ynov\Master 1\NET\projet hearthstone\hearthStoneDeckBuilder\obj\Debug\netcoreapp2.1\Razor\Views\HomeDeck\About.g.cshtml.cs
-C:\Users\thery\OneDrive - Ynov\Master 1\NET\projet hearthstone\hearthStoneDeckBuilder\obj\Debug\netcoreapp2.1\Razor\Views\HomeDeck\Contact.g.cshtml.cs
-C:\Users\thery\OneDrive - Ynov\Master 1\NET\projet hearthstone\hearthStoneDeckBuilder\obj\Debug\netcoreapp2.1\Razor\Views\HomeDeck\Index.g.cshtml.cs
-C:\Users\thery\OneDrive - Ynov\Master 1\NET\projet hearthstone\hearthStoneDeckBuilder\obj\Debug\netcoreapp2.1\Razor\Views\HomeDeck\Privacy.g.cshtml.cs
 C:\Users\thery\OneDrive - Ynov\Master 1\NET\projet hearthstone\hearthStoneDeckBuilder\obj\Debug\netcoreapp2.1\Razor\Views\BuildDeck\index.g.cshtml.cs
 C:\Users\thery\OneDrive - Ynov\Master 1\NET\projet hearthstone\hearthStoneDeckBuilder\obj\Debug\netcoreapp2.1\Razor\Views\Deck\Create.g.cshtml.cs
 C:\Users\thery\OneDrive - Ynov\Master 1\NET\projet hearthstone\hearthStoneDeckBuilder\obj\Debug\netcoreapp2.1\Razor\Views\Deck\Delete.g.cshtml.cs
